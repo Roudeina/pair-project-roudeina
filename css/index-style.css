@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Xanh Mono", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: azure;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0rem 6rem 0rem;
+}
+.intro-main {
+  text-align: center;
+  padding: 10%;
+  color: black;
+  font-size: medium;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgb(61, 58, 58);
+}
+.intro-title {
+  text-align: center;
+  color: rgba(40, 40, 41, 0.658);
+  font-weight: bold;
+  font-size: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a {
+  text-decoration: none !important;
+  color: #bd8b3b;
+  padding: 4px 8px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
